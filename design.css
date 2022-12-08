@@ -1,7 +1,9 @@
+
+
 body {
     background-color: rgba(237, 237, 237, 1);
     overflow-x: hidden;
-    
+    font-family: 'DM Serif Display', serif;
 }
 
 #border {
@@ -15,7 +17,13 @@ h1 {
     width: auto;
     text-align: center;
     margin-top: auto;
-}
+    font-family: 'DM Serif Display', serif;
+  }
+  image {
+    margin: left 20px;
+    height: 40px; 
+    width: 40px;
+  }
 
 /*menu-navbar*/
 .navbar {
@@ -29,9 +37,11 @@ h1 {
     padding: px;
     color: rgba(51, 91, 60, 1);
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     width: 16%; /* Four links of equal widths */
     text-align: center;
+    font-family: 'DM Serif Display', serif;
+
   }
   /* must*/
   .navbar a:hover {
@@ -61,6 +71,8 @@ p {
         text-align: center;
         padding: 15px 32px;
         font-size: 16px;
+        font-family: 'DM Serif Display', serif;
+
 
 }
       
