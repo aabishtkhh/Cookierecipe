@@ -19,11 +19,6 @@ h1 {
     margin-top: auto;
     font-family: 'DM Serif Display', serif;
   }
-  image {
-    margin: left 20px;
-    height: 40px; 
-    width: 40px;
-  }
 
 /*menu-navbar*/
 .navbar {
@@ -61,6 +56,7 @@ p {
         font-size: 120%;
         width: auto;
         text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
 .button {
@@ -92,4 +88,45 @@ p {
     color: rgba(51, 91, 60, 1);
     font-size: 20px;
   }
+
+  /* The container */
+.container1 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+
+}
+
+.container1 input { /*remove beginning checkbox*/
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container1:hover input ~ .checkmark {
+  background-color: rgb(97, 55, 55);
+}
+
+.container1 input:checked ~ .checkmark {
+  background-color: rgba(144, 102, 102, 1);
+}
+.container1 input:checked{
+  text-decoration: line-through;
+}
 
